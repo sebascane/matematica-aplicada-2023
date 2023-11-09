@@ -11,7 +11,7 @@ def cargar_datos_desde_json(archivo_json):
     return datos_json
 
 
-datos_json = cargar_datos_desde_json('Video_Games_5.json')
+datos_json = cargar_datos_desde_json(input("Nombre del archivo:"))
 categoria = 'Video Games'
 productos = []
 for dato in datos_json:
